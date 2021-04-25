@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "24f1def7-46cd-4634-83b4-4b8699646f21",
+		"name": "allegro api",
+		"description": "Allegro Technology - Intern ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "find",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/find/Z-Rna",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"find",
+						"Z-Rna"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "stars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/stars/Z-Rna",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"stars",
+						"Z-Rna"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
